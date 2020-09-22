@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.doubleBTN = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -58,7 +59,7 @@
             this.textBox1.Location = new System.Drawing.Point(13, 13);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(681, 103);
+            this.textBox1.Size = new System.Drawing.Size(716, 103);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
@@ -70,7 +71,7 @@
             this.textBox2.Location = new System.Drawing.Point(12, 151);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(681, 108);
+            this.textBox2.Size = new System.Drawing.Size(717, 108);
             this.textBox2.TabIndex = 4;
             // 
             // button2
@@ -129,12 +130,25 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // doubleBTN
+            // 
+            this.doubleBTN.AutoSize = true;
+            this.doubleBTN.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.doubleBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.doubleBTN.Location = new System.Drawing.Point(691, 126);
+            this.doubleBTN.Name = "doubleBTN";
+            this.doubleBTN.Size = new System.Drawing.Size(39, 17);
+            this.doubleBTN.TabIndex = 10;
+            this.doubleBTN.Text = "3X";
+            this.doubleBTN.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(706, 266);
+            this.ClientSize = new System.Drawing.Size(741, 266);
+            this.Controls.Add(this.doubleBTN);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
@@ -161,6 +175,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.CheckBox doubleBTN;
     }
 }
 

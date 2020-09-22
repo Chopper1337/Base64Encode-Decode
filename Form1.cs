@@ -15,6 +15,7 @@ namespace Base64Encode_Decode
         public Form1()
         {
             InitializeComponent();
+           
         }
 
         public static string Base64Encode(string plainText)
@@ -31,10 +32,40 @@ namespace Base64Encode_Decode
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.TextLength > 1)
-            textBox2.Text = Base64Encode(textBox1.Text);
+            if (doubleBTN.Checked)
+            {
+                if (textBox1.TextLength > 1)
+                {
+                    String partOne;
+                    String partTwo;
+                    String partThree;
+                    partOne = Base64Encode(textBox1.Text);
+                    partTwo = Base64Encode(partOne);
+                    partThree = Base64Encode(partTwo);
+                    textBox2.Text = partThree;
+                }
+                else
+                {
+                    String partOne1;
+                    String partTwo1;
+                    String partThree1;
+                    partOne1 = Base64Decode(textBox2.Text);
+                    partTwo1 = Base64Decode(partOne1);
+                    partThree1 = Base64Decode(partTwo1);
+                    textBox1.Text = partThree1;
+                }
+            }
             else
+            {
+                if (textBox1.TextLength > 1)
+                { 
+                    textBox2.Text = Base64Encode(textBox1.Text);
+                }
+                else
+                {
                 textBox1.Text = Base64Decode(textBox2.Text);
+                }
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
