@@ -36,7 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.doubleBTN = new System.Windows.Forms.CheckBox();
+            this.tripleBTN = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -132,15 +132,15 @@
             // 
             // doubleBTN
             // 
-            this.doubleBTN.AutoSize = true;
-            this.doubleBTN.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.doubleBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.doubleBTN.Location = new System.Drawing.Point(691, 126);
-            this.doubleBTN.Name = "doubleBTN";
-            this.doubleBTN.Size = new System.Drawing.Size(39, 17);
-            this.doubleBTN.TabIndex = 10;
-            this.doubleBTN.Text = "3X";
-            this.doubleBTN.UseVisualStyleBackColor = false;
+            this.tripleBTN.AutoSize = true;
+            this.tripleBTN.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tripleBTN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tripleBTN.Location = new System.Drawing.Point(691, 126);
+            this.tripleBTN.Name = "doubleBTN";
+            this.tripleBTN.Size = new System.Drawing.Size(39, 17);
+            this.tripleBTN.TabIndex = 10;
+            this.tripleBTN.Text = "3X";
+            this.tripleBTN.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -148,7 +148,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(741, 266);
-            this.Controls.Add(this.doubleBTN);
+            this.Controls.Add(this.tripleBTN);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
@@ -175,7 +175,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckBox doubleBTN;
+        private System.Windows.Forms.CheckBox tripleBTN;
     }
 }
 

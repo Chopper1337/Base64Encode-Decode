@@ -1,0 +1,10 @@
+C:\Users\Joseph\source\repos\Base64Encode-Decode\bin\Release\Base64Encode-Decode.exe.config
+C:\Users\Joseph\source\repos\Base64Encode-Decode\bin\Release\Base64Encode-Decode.exe
+C:\Users\Joseph\source\repos\Base64Encode-Decode\bin\Release\Base64Encode-Decode.pdb
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode_Decode.Form1.resources
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode_Decode.Properties.Resources.resources
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode-Decode.csproj.GenerateResource.cache
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode-Decode.csproj.CoreCompileInputs.cache
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode-Decode.exe
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode-Decode.pdb
+C:\Users\Joseph\source\repos\Base64Encode-Decode\obj\Release\Base64Encode-Decode.csprojAssemblyReference.cache
